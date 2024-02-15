@@ -91,10 +91,8 @@
             z-index: 100;
         }
     </style>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 </head>
-
 
 <body>
     <!--retarget-->
@@ -120,6 +118,35 @@
                             <li class="selected"><a href="#">DISCUSSIONE</a></li>
                             <li class="shev_V7Mo2liaeP"><a href="#">CONTATTI</a></li>
                         </ul>
+                        <button class="header__burger-btn">
+                            <div class="header__burger"></div>
+                        </button>
+                        <style>
+                            /* Скрыть список меню по умолчанию */
+                            .menu {
+                                display: none;
+                            }
+
+                            /* Стилизация кнопки бургер-меню */
+                            .menu-button {
+                                background-color: transparent;
+                                border: none;
+                                cursor: pointer;
+                                padding: 10px;
+                            }
+
+                            /* Стилизация пунктов меню */
+                            .menu li {
+                                list-style-type: none;
+                            }
+
+                            .menu li a {
+                                text-decoration: none;
+                                color: black;
+                                display: block;
+                                padding: 10px;
+                            }
+                        </style>
                         <div class="header__middle-right">
                             <span class="header__middle-search"><img src="./img-main/icons8-search.png"
                                     alt="search"></span>
@@ -927,31 +954,7 @@
                                                             <span class="comment-date mv_rtdate"></span>
                                                         </div>
                                                     </div>
-                                                </div>
-
-                                                <div class="comments-wrp">
-                                                    <div class="comments-item">
-                                                        <div class="comment-avatar">
-                                                            <img src="img/comm_15.jpg" width="32" height="32" />
-                                                        </div>
-                                                        <div class="comment-text">
-                                                            <span class="comment-username"> Маша Рангелова<br></span>
-                                                            Някой всъщност пробвал ли е? Има ли реални отзиви? Много
-                                                            често
-                                                            ми се вие свят и все още няма време да
-                                                            ида на лекар
-                                                            <br>
-                                                            <button class="reply-btn"
-                                                                data-parent-id="1">Ответить</button>
-                                                        </div>
-                                                        <div class="comment-action">
-                                                            <span class="like">Като</span>
-                                                            <span class="reply">Повторно публикуване</span>
-                                                            <span class="like-count">3</span>
-                                                            <span class="comment-date mv_rtdate"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                </div>                                    
 
                                                 <div class="comments-wrp">
                                                     <div class="comments-item">
@@ -975,57 +978,7 @@
                                                             <span class="comment-date mv_rtdate"></span>
                                                         </div>
                                                     </div>
-                                                </div>
-
-                                                <div class="comments-wrp">
-                                                    <div class="comments-item">
-                                                        <div class="comment-avatar">
-                                                            <img src="img/comm_17.jpg" width="32" height="32" />
-                                                        </div>
-                                                        <div class="comment-text">
-                                                            <span class="comment-username"> Ина Димитриева<br></span>
-                                                            Поръчах си го, взех го в пощата вчера. Вечерта пих – някак
-                                                            ми стана по–леко, шумът в главата ми
-                                                            премина. Продължавам да го пия
-                                                            <br>
-                                                            <button class="reply-btn"
-                                                                data-parent-id="1">Ответить</button>
-                                                            <!-- Добавляем кнопку "Ответить" -->
-                                                        </div>
-                                                        <div class="comment-action">
-                                                            <span class="like">Като</span>
-                                                            <span class="reply">Повторно публикуване</span>
-                                                            <span class="like-count">9</span>
-                                                            <span class="comment-date mv_rtdate"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="comments-wrp">
-                                                    <div class="comments-item">
-                                                        <div class="comment-avatar">
-                                                            <img src="img/comm_18.jpg" width="32" height="32" />
-                                                        </div>
-                                                        <div class="comment-text">
-                                                            <span class="comment-username"> Слънчев лъч<br></span>
-                                                            Това е вторият път, когато поръчвам Cardioactive за себе си
-                                                            и родителите си. Много добър продукт!
-                                                            Мъчеха ме мигрени и на мен често ми се случваше да ми
-                                                            притъмнее пред очите, чак до загуба на
-                                                            съзнание. С Cardioactive всичко мина, препоръчвам!
-                                                            <br>
-                                                            <button class="reply-btn"
-                                                                data-parent-id="1">Ответить</button>
-                                                            <!-- Добавляем кнопку "Ответить" -->
-                                                        </div>
-                                                        <div class="comment-action">
-                                                            <span class="like">Като</span>
-                                                            <span class="reply">Повторно публикуване</span>
-                                                            <span class="like-count">7</span>
-                                                            <span class="comment-date mv_rtdate"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                </div>                                     
 
                                                 <div class="comments-wrp">
                                                     <div class="comments-item">
@@ -1049,61 +1002,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
-
-                                                <div class="comments-wrp">
-                                                    <div class="comments-item">
-                                                        <div class="comment-avatar">
-                                                            <img src="img/comm_20.jpg" width="32" height="32" />
-                                                        </div>
-                                                        <div class="comment-text">
-                                                            <span class="comment-username">Максим Славчев</span><br>
-                                                            Cardioactive перфектно балансира налягането и укрепва общото
-                                                            благосъстояние. Стои ми в бюрото, без
-                                                            него Като без ръце
-                                                            <br>
-                                                            <button class="reply-btn"
-                                                                data-parent-id="1">Ответить</button>
-                                                            <!-- Добавляем кнопку "Ответить" -->
-                                                        </div>
-                                                        <div class="comment-action">
-                                                            <span class="like">Като</span>
-                                                            <span class="reply">Повторно публикуване</span>
-                                                            <span class="like-count">212</span>
-                                                            <span class="comment-date mv_rtdate"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="comments-wrp">
-                                                    <div class="comments-item">
-                                                        <div class="comment-avatar">
-                                                            <img src="img/comm_21.jpg" width="32" height="32" />
-                                                        </div>
-                                                        <div class="comment-text">
-                                                            <span class="comment-username">Дария Соколова</span><br>
-                                                            Отдавна чета за Cardioactive, има много добри отзиви.
-                                                            Казват, че
-                                                            е незаменимо нещо за възстановяване
-                                                            от инсулти и инфаркти. Поръчах го на родителите си,
-                                                            превенцията
-                                                            е по–добра!
-                                                            <br>
-                                                            <button class="reply-btn"
-                                                                data-parent-id="1">Ответить</button>
-                                                            <!-- Добавляем кнопку "Ответить" -->
-                                                        </div>
-                                                        <div class="comment-action">
-                                                            <span class="like">Като</span>
-                                                            <span class="reply">Повторно публикуване</span>
-                                                            <span class="like-count">212</span>
-                                                            <span class="comment-date mv_rtdate"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                             </div>
                                         </div>
 
-                                        
+
                                         <script src="js/comment.js"></script>
                                         <center>
                                             <div class="udalykhnn_av3FDRJhB"><br>

@@ -105,21 +105,17 @@ h2 {
     /* color: black; */
     display: block;
     position: relative;
-}
-
-.katya .Natali0610_RVdHBJiwC {
-    max-height: 32px;
-}
-
-.katya .Natali0610_RVdHBJiwC h1 {
-    font-size: 31px;
-    font-size: 36px;
-    margin-top: 20px;
-    margin-left: 41px;
     float: left;
     /* text-transform: uppercase; */
     line-height: 1;
 }
+
+.katya .Natali0610_RVdHBJiwC {
+    max-height: 32px;
+    max-width: 130px;
+}
+
+.katya .Natali0610_RVdHBJiwC h1 {}
 
 .katya .vasilusya_rfYcdWbD {
     float: right;
@@ -842,8 +838,10 @@ a.button.dsgnmoo:hover, .btn:hover, .send-btn:hover {
     background-color: #c20017;
     padding: 10px 20px;
     border-radius: 5px;
-    z-index: 9999; /* Поднимаем поверх другого контента */
-    display: none; /* Начинается с скрытия */
+    z-index: 9999;
+    /* Поднимаем поверх другого контента */
+    display: none;
+    /* Начинается с скрытия */
     color: #fff;
     font-weight: 400;
     font-size: 14px;
@@ -925,10 +923,46 @@ a.button.dsgnmoo:hover, .btn:hover, .send-btn:hover {
     color: #333;
 }
 
+.header__burger-btn {
+    width: 24px;
+    height: 14px;
+    background-color: inherit;
+    border: none;
+    display: none;
+    opacity: 0.7;
+}
+
+.header__burger {
+    width: 24px;
+    height: 3px;
+    background-color: #fff;
+    position: relative;
+    border: none;
+}
+
+.header__burger-btn:hover{
+    opacity: 1;
+}
+
+.header__burger::before,
+.header__burger::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 3px;
+    left: 0px;
+    background-color: #fff;
+}
+
+.header__burger::before {
+    top: 7px;
+}
+
+.header__burger::after {
+    bottom: 7px;
+}
+
 @media screen and (max-width: 991px) {
-    .zevs {
-        width: auto;
-    }
 
     .vk-comment,
     .vk-comment-load {
@@ -948,9 +982,7 @@ a.button.dsgnmoo:hover, .btn:hover, .send-btn:hover {
         height: auto;
     }
 
-    .katya .main-menu-blk>li a {
-        line-height: 50px;
-    }
+
 
     .katya .mikstroy_hlTMvYzPJs {
         width: 180px;
@@ -972,11 +1004,30 @@ a.button.dsgnmoo:hover, .btn:hover, .send-btn:hover {
         width: auto;
         float: none;
     }
+
+    .footer_list{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .main-menu-blk>li>a {
+        padding: 8px 5px;
+    }
+
+    .main-menu-blk {
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
     .katya .main-menu-blk>li {
         width: 33.333%;
+    }
+
+    .header__burger-btn{
+        display: block;
     }
 
     .main-menu-blk {
@@ -1037,10 +1088,6 @@ a.button.dsgnmoo:hover, .btn:hover, .send-btn:hover {
     .vk-comment-text,
     .vk-comment-date {
         margin-left: 0;
-    }
-
-    .puzzle {
-        display: none;
     }
 
     .form__inner {
@@ -1111,6 +1158,10 @@ a.button.dsgnmoo:hover, .btn:hover, .send-btn:hover {
     .renul_seDwyoGn57 h2 {
         margin: 0;
     }
+
+    .notification-banner{
+        font-size: 12px;
+    }
 }
 
 /* COMMENT */
@@ -1131,10 +1182,11 @@ a.button.dsgnmoo:hover, .btn:hover, .send-btn:hover {
     text-align: left;
 }
 
-.reply-btn{
+.reply-btn {
     background-color: transparent;
     color: #24498e;
     border: none;
+    font-weight: 900;
 }
 
 .comment-username,
