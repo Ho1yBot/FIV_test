@@ -50,24 +50,46 @@ window.addEventListener('DOMContentLoaded', function () {
         if (target.classList.contains('reply-btn')) {
             const parentComment = target.closest('.comments-item');
             const parentCommentId = parentComment.getAttribute('data-parent-id'); // Используем атрибут data-parent-id
-            const replyText = prompt('Введите ваш ответ:');
-            if (replyText) {
-                // Добавляем уникальный класс к комментарию после ввода ответа
-                const commentIdentifier = `comment-${commentCounter}`;
-                parentComment.classList.add(commentIdentifier);
 
-                const replyId = `reply_${commentIdentifier}`;
-                let replies = localStorage.getItem(replyId);
-                replies = replies ? JSON.parse(replies) : [];
-                replies.push(replyText);
-                localStorage.setItem(replyId, JSON.stringify(replies));
+            // Создаем область для ввода ответа
+            const replyArea = document.createElement('div');
+            replyArea.classList.add('reply-area');
+            replyArea.innerHTML = `
+                <textarea class="reply-textarea" placeholder="Введите ваш ответ"></textarea>
+                <button class="send-reply-btn">Отправить</button>
+            `;
+            parentComment.appendChild(replyArea);
 
-                appendReply(parentComment, replyText);
-                commentCounter++; // Увеличиваем счетчик после добавления нового ответа
+            // Скрываем кнопку "Ответить"
+            target.style.display = 'none';
 
-                // Сохраняем уникальный класс в локальном хранилище
-                saveUniqueClass(commentIdentifier);
-            }
+            // Обработчик события для отправки ответа
+            const sendReplyBtn = replyArea.querySelector('.send-reply-btn');
+            sendReplyBtn.addEventListener('click', function () {
+                const replyTextarea = replyArea.querySelector('.reply-textarea');
+                const replyText = replyTextarea.value.trim();
+                if (replyText) {
+                    const commentIdentifier = `comment-${commentCounter}`;
+                    parentComment.classList.add(commentIdentifier);
+
+                    const replyId = `reply_${commentIdentifier}`;
+                    let replies = localStorage.getItem(replyId);
+                    replies = replies ? JSON.parse(replies) : [];
+                    replies.push(replyText);
+                    localStorage.setItem(replyId, JSON.stringify(replies));
+
+                    appendReply(parentComment, replyText);
+                    commentCounter++;
+
+                    saveUniqueClass(commentIdentifier);
+
+                    // Скрыть область для ввода ответа после отправки
+                    parentComment.removeChild(replyArea);
+
+                    // Показать кнопку "Ответить" после отправки ответа
+                    target.style.display = 'inline';
+                }
+            });
         }
     });
 

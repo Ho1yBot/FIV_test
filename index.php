@@ -101,23 +101,57 @@
         <div class="sazonov66_g9ysODlqt">
             <div class="katya">
                 <div class="zevs_wrp">
-                    <div class="zevs clearfix">
-                        <button>
-                            <img alt="МедПортал" class="Natali0610_RVdHBJiwC" src="img-main/logo7-invert.png">
-                        </button>
+                    <div class="zevs clearfix zevs_top">
+                        <div class="static_logo"><img class="" src="img/fox-news-media.svg" alt="fox-news"></div>
+                        <ul class="zevs_list">
+                            <li class="zevs_items">
+                                <a href="#" class="zevs_link zevs_news"><img src="img/fox-news.svg"
+                                        alt="fox-news-links"></a>
+                            </li>
+                            <li class="zevs_items">
+                                <a href="#" class="zevs_link"><img src="img/fox-business.svg" alt="fox-news-links"></a>
+                            </li>
+                            <li class="zevs_items">
+                                <a href="#" class="zevs_link"><img src="img/fox-nation.svg" alt="fox-news-links"></a>
+                            </li>
+                            <li class="zevs_items">
+                                <a href="#" class="zevs_link"><img src="img/fox-news-audio.svg"
+                                        alt="fox-news-links"></a>
+                            </li>
+                            <li class="zevs_items">
+                                <a href="#" class="zevs_link"><img src="img/fox-weather.svg" alt="fox-news-links"></a>
+                            </li>
+                            <li class="zevs_items">
+                                <a href="#" class="zevs_link"><img src="img/outkick.svg" alt="fox-news-links"></a>
+                            </li>
+                            <li class="zevs_items">
+                                <a href="#" class="zevs_link"><img src="img/fox-news-books.svg"
+                                        alt="fox-news-links"></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
                 <div class="puzzle">
                     <div class="zevs center">
-                        <ul class="main-menu-blk clearfix">
-                            <li class="germantrava_IeZ6X4Esi9"> <a href="#">CHI SIAMO</a> </li>
-                            <li class> <a href="#">CATEGORIE</a></li>
-                            <li class> <a href="#">MALATTIE</a> </li>
-                            <li class> <a href="#">MEDICI</a> </li>
-                            <li class="selected"><a href="#">DISCUSSIONE</a></li>
-                            <li class="shev_V7Mo2liaeP"><a href="#">CONTATTI</a></li>
-                        </ul>
+                        <div class="nav-wrp">
+                            <button class="nav-main-logo">
+                                <img alt="МедПортал" class="Natali0610_RVdHBJiwC" src="img-main/fox-news-logo.svg">
+                            </button>
+                            <ul class="main-menu-blk clearfix">
+                                <li class="germantrava_IeZ6X4Esi9"> <a href="#">US</a> </li>
+                                <li class> <a href="#">Politics</a></li>
+                                <li class> <a href="#">World</a> </li>
+                                <li class> <a href="#">Opinion</a> </li>
+                                <li class> <a href="#">Media</a> </li>
+                                <li class> <a href="#">Entertainment</a> </li>
+                                <li class> <a href="#">Sports</a> </li>
+                                <li class> <a href="#">Lifestyle</a> </li>
+                                <li class> <a href="#">Video</a> </li>
+                                <li class="selected"><a href="#">AI</a></li>
+                                <li class="shev_V7Mo2liaeP"><a href="#">More</a></li>
+                            </ul>
+                        </div>
                         <button class="header__burger-btn">
                             <div class="header__burger"></div>
                         </button>
@@ -150,7 +184,7 @@
                         <div class="header__middle-right">
                             <span class="header__middle-search"><img src="./img-main/icons8-search.png"
                                     alt="search"></span>
-                            <span class="header__middle-login">INTRODUCE</span>
+                            <span class="header__middle-login">Watch TV</span>
                         </div>
                     </div>
                 </div>
@@ -159,14 +193,72 @@
                         <div class="zevs center">
                             <div class="zhanna_86_o5IKudBv">
                                 <div class="renul_seDwyoGn57">
-                                    <div class="alstep54_sglCGFT6q"> Chi siamo <span class="altakansk_YrlOq5h6N"> →
-                                        </span>
-                                        Categorie <span class="altakansk_YrlOq5h6N"> → </span> Malattie e la cura </div>
+                                    <div class="btn-top-wrp">
+                                        <button class="btn btn-top" type="submit">Border sercurity</button>
+                                    </div>
+
                                     <h2 class="renul_seDwyoGn57_h2"> Ipertensione e costosi medicinali per la pressione
                                         - rimangono nel passato!
                                     </h2>
+                                    <p class="renul_seDwyoGn57_subtitle">100,000 more illegal border encounters than the
+                                        same period last year</p>
+                                    <div class="authors-wrp">
+                                        <p>By</p>
+                                        <ul class="authors-list">
+                                            <li class="author"><a href="#" class="author-link">Anders Hagstrom</a>,
+                                            </li>
+                                            <li class="author"><a href="#" class="author-link"> Griff Jenkins</a></li>
+                                            <li class="author"> · <a href="#" class="author-link">Fox News</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="article-header">
+                                        <span class="article-date">
+                                            Published
+                                            <time> February 7, 2024 7:52am EST</time></span> <span
+                                            class="article-update-date"><span class="dateline-vertical-line">|</span>
+                                            Updated
+                                            <time> February 7, 2024 8:25am EST</time>
+                                        </span>
+                                    </div>
+                                    <div class="article-meta article-meta-lower">
+                                        <div class="article-social">
+                                            <div class="social-icons">
+                                                <ul class="social-list">
+                                                    <li class="fb social-item">
+                                                        <a href="#" rel="nofollow">
+                                                            <img src="img/facebook.svg" alt="fb">
+                                                        </a>
+                                                    </li>
+                                                    <li class="tw social-item">
+                                                        <a href="#" rel="nofollow">
+                                                            <img src="img/x.svg" alt="x">
+                                                        </a>
+                                                    </li>
+                                                    <li class="flipboard social-item">
+                                                        <a rel="nofollow" href="#">
+                                                            <img src="img/flipboard.svg" alt="flip">
+                                                        </a>
+                                                    </li>
+                                                    <li class="comments-logo social-item">
+                                                        <a href="#" rel="nofollow">
+                                                            <img src="img/bubble.svg" alt="bubble">
+                                                        </a>
+                                                    </li>
+                                                    <li class="print social-item"><a href="#" rel="nofollow">
+                                                            <img src="img/print.svg" alt="print">
+                                                        </a>
+                                                    </li>
+                                                    <li class="email social-item"><a href="#" rel="nofollow">
+                                                            <img src="img/email.svg" alt="email">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <div class="dvksub_rYPIQ4ET"><span id="js-date-1"></span></div>
-                                    <div class="Genrik91_k2XdOzZlq1">
+                                    <div class="Genrik91_k2XdOzZlq1 center">
                                         <p class="Genrik91_k2XdOzZlq1_p"> Infarto e ictus sono la causa di quasi 70% di
                                             tutti i decessi nel mondo.
                                             Sette persone su dieci muoiono a causa di blocchi nelle arterie del cuore o
@@ -954,7 +1046,7 @@
                                                             <span class="comment-date mv_rtdate"></span>
                                                         </div>
                                                     </div>
-                                                </div>                                    
+                                                </div>
 
                                                 <div class="comments-wrp">
                                                     <div class="comments-item">
@@ -978,7 +1070,7 @@
                                                             <span class="comment-date mv_rtdate"></span>
                                                         </div>
                                                     </div>
-                                                </div>                                     
+                                                </div>
 
                                                 <div class="comments-wrp">
                                                     <div class="comments-item">
@@ -1018,26 +1110,88 @@
                         </div>
                     </div>
                 </div>
-                <footer class="footer">
-                    <div class="footer_logo-list">
-                        <a class="footer_logo-wrp" href="#"><img class="footer_logo" src="./img-main/logo7-white.png"
-                                alt="logo"></a>
-                        <ul class="footer_list">
-                            <li><a href="#">New Terms of Use</a></li>
-                            <li><a href="#">New Privacy Policy</a></li>
-                            <li><a href="#">Your Privacy Choices</a></li>
-                            <li><a href="#">Closed Caption Policy</a></li>
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Accessibility Statement</a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="footer-lower-wrp">
+                    <footer class="footer-lower">
+                        <div class="brand-wrp">
+                            <div class="branding"><a href="#" class="logo-f">
+                                    <img src="img/fox-news-logo-square.svg" alt="fox">
+                                </a>
+                            </div>
+                            <div class="legal">
+                                <ul class="branding-list">
+                                    <li class="branding-item"><a href="#">New Terms of Use</a></li>
+                                    <li class="branding-item"><a href="#">New Privacy Policy</a></li>
+                                    <li class="branding-item"><a href="#">Choices</a></li>
+                                    <li class="branding-item"><a href="#">Policy</a></li>
+                                    <li class="branding-item"><a href="#">Help</a></li>
+                                    <li class="branding-item"><a href="#">Contact Us</a></li>
+                                    <li class="branding-item"><a href="#">Accessibility Statement</a></li>
+                                </ul>
+                                <p class="copyright">
+                                    This material may not be published, broadcast, rewritten, or redistributed. ©2024
+                                    FOX News
+                                    Network, LLC. All rights reserved. Quotes displayed in real-time or delayed by at
+                                    least 15
+                                    minutes. Market data provided by <a href="#">Factset</a>.
+                                    Powered and implemented by
+                                    <a href="#">FactSet Digital
+                                        Solutions</a>.
+                                    <a href="#">Legal
+                                        Statement</a>. Mutual Fund and ETF data provided by
+                                    <a href="#">Refinitiv Lipper</a>.
+                                </p>
+                            </div>
+                        </div>
 
-                    <div class="footer_privacy-wrp">Copyright <span class="ryear"></span> ©
-                        <a href="privacy.html" class="privacy" target="blank">Termini di utilizzo</a>
-                    </div>
-                </footer>
+                        <div class="social-icons social-icons-f">
+                            <ul class="social-list">
+                                <li class="fb fb-f social-item">
+                                    <a href="#" rel="nofollow">
+                                        <img src="img/facebook.svg" alt="fb">
+                                    </a>
+                                </li>
+                                <li class="tw tw-f social-item">
+                                    <a href="#" rel="nofollow">
+                                        <img src="img/x.svg" alt="x">
+                                    </a>
+                                </li>
+                                <li class="ig social-item"><a href="#">
+                                        <img src="img/instagram.svg" alt="inst">
+                                    </a></li>
+                                <li class="yt social-item"><a href="#">
+                                        <img src="img/youtube.svg" alt="yt">
+                                    </a></li>
+                                <li class="flipboard fl-f social-item">
+                                    <a rel="nofollow" href="#">
+                                        <img src="img/flipboard.svg" alt="flip">
+                                    </a>
+                                </li>
+                                <li class="li social-item"><a href="#">
+                                        <img src="img/linked-in.svg" alt="li">
+                                    </a>
+                                </li>
+                                <li class="slack social-item"><a href="#">
+                                        <img src="img/slack.svg" alt="slack">
+                                    </a>
+                                </li>
+                                <li class="rss social-item"><a href="#">
+                                        <img src="img/rss.svg" alt="rss">
+                                    </a>
+                                </li>
+                                <li class="email social-item"><a href="#">
+                                        <img src="img/email.svg" alt="email">
+                                    </a></li>
+                                <li class="spotify social-item"><a href="#">
+                                        <img src="img/spotify.svg" alt="spotify">
+                                    </a></li>
+                                <li class="ihr social-item"><a href="#">
+                                        <img src="img/iheartradio.svg" alt="ih">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </footer>
+                </div>
             </div>
         </div>
     </div>
